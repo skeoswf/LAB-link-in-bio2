@@ -1,13 +1,27 @@
 body {
-  background-color: beige;
+  background-image: url("./backgroundBrutalist.png");
+  background-size: 2700px 2000px;
 }
 
-.btn-primary {
-  background-color: orange;
-  height: 4.2vh;
+#instagram, #linkedin, #github, #soundcloud {
+  background-color: rgb(242, 4, 1, 0.2);
+  height: 4.1vh;
+  transition: all ease 0.4s;
+  border-style: none;
+  border-radius: 25px 0px 25px 0px;
+}
+
+#instagram:hover, #linkedin:hover, #github:hover, #soundcloud:hover {
+  background-color: rgb(99, 6, 5, 1);
+}
+
+#instagram:active, #linkedin:active, #github:active, #soundcloud:active {
+  background-color: rgb(242, 4, 1, 1);
+  border-style: none;
+  outline: none;
+  box-shadow: none;
 }
 
 #linkCard {
-  border: 1px solid red;
   margin-top: 30vh;
 }
