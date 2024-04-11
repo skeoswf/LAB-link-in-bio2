@@ -6,20 +6,26 @@ body {
 #instagram, #linkedin, #github, #soundcloud {
   background-color: rgb(242, 4, 1, 0.2);
   height: 4.1vh;
-  transition: all ease 0.4s;
+  transition: all ease 0.2s;
   border-style: none;
   border-radius: 25px 0px 25px 0px;
 }
 
 #instagram:hover, #linkedin:hover, #github:hover, #soundcloud:hover {
-  background-color: rgb(99, 6, 5, 1);
+  background-color: rgba(59, 4, 4, 0.4);
+  /* transform: translate(-10px, -10px); */
+  transform: translateX(-10px);
+  border-style: none none solid solid;
+  border-width: 3px;
 }
 
 #instagram:active, #linkedin:active, #github:active, #soundcloud:active {
-  background-color: rgb(242, 4, 1, 1);
+  background-color: rgb(88, 1, 0);
   border-style: none;
   outline: none;
   box-shadow: none;
+  border-style: solid solid none none;
+  border-width: 3px;
 }
 
 #linkCard {
