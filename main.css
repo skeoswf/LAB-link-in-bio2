@@ -4,4 +4,10 @@ body {
 
 .btn-primary {
   background-color: orange;
+  height: 4.2vh;
+}
+
+#linkCard {
+  border: 1px solid red;
+  margin-top: 30vh;
 }
